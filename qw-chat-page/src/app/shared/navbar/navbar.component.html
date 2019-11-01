@@ -1,0 +1,24 @@
+<!-- NAV SECTION -->
+<div id="nav-container" [class.nav-shadow]="showNavbarShadow">
+    <div id="main-container">
+        <div class="nav">
+            <div class="logo" routerLink="/">
+                <img src="../../../assets/images/qw-logo.png" />
+            </div>
+            <ng-container *ngTemplateOutlet="navTemplate"></ng-container>
+            <ng-template #navTemplate>
+                <div id="sub-link-container" [ngClass]="{ 'show': navToggle }">
+                    <ng-container *ngFor="let link of navLinks">
+                        <ng-container [ngSwitch]="link.type">
+                            <a class="sub-link" *ngSwitchCase="'link'" routerLink="" fragment="{{link.fragmentId}}">{{link.name}}</a>
+                            <button *ngSwitchCase="'button'" class="button btn-get-started" (click)="redirectTQWChat()">{{link.name}}</button>
+                        </ng-container>
+                    </ng-container>
+                </div>
+            </ng-template>
+            <div class="toggle" (click)="toggleNav()">
+                <i [class]="'fa fa-'+navIcon"></i>
+            </div>
+        </div>
+    </div>
+</div>

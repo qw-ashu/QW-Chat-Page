@@ -1,0 +1,5 @@
+@import "../assets/scss/variables.scss";
+
+section:nth-child(even) {
+    background: $qw-background-color;
+}

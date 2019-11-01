@@ -1,0 +1,158 @@
+.m-r-126 {
+  margin: 0 126px 0 0;
+}
+
+.m-r-116 {
+  margin: 0 116px 0 0;
+}
+
+.m-r-112 {
+  margin: 0 112px 0 0;
+}
+
+.logo {
+  font-size: 22px;
+}
+
+.logo > img {
+  width: 144px;
+}
+
+.row {
+  display: flex;
+
+  margin-top: 60px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-top: 60px;
+}
+
+h5 {
+  text-align: left;
+  font-size: 12px;
+  color: #494d59;
+  font-weight: 400;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+  color: #494d59;
+}
+
+#footer-section .email-input {
+  border: 1px solid #494d59;
+  background: none;
+  padding: 10px 10px;
+  border-radius: 4px;
+  max-width: 208px;
+  width: 100%;
+}
+
+#footer-section button {
+    background-color: transparent;
+    border: 1px solid #494d59;
+    color: #494d59;
+}
+
+.notify-email {
+  margin-right: 10px;
+}
+
+#footer-section {
+  background: #efeef0;
+  padding: 0px;
+  padding-bottom: 60px;
+}
+
+.copy-right-container {
+  width: 100%;
+  border-top: 1px solid #bfbdc1;
+  border-bottom: 1px solid #bfbdc1;
+  margin-top: 40px;
+}
+
+.qw-footer {
+  padding: 25px 0px;
+}
+
+.qw-copyright {
+  color: #494d59;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.social-media-icons > img {
+  margin-left: 30px;
+  width: 25px;
+  height: 25px;
+}
+
+/* ABOUT US PAGE */
+
+@media all and (max-width: 1240px) {
+  .logo {
+    margin-right: 250px;
+  }
+
+  #main-container {
+    padding: 0px 10px;
+  }
+}
+
+@media all and (max-width: 980px) {
+  .logo {
+    margin-right: 20px;
+  }
+}
+
+@media all and (max-width: 795px) {
+  .row {
+    margin-top: 15px;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+  }
+
+  .col {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .row > * {
+    margin: 10px !important;
+  }
+  .logo {
+    margin: 0px;
+  }
+
+  .vision-statement-container {
+    flex-basis: 60%;
+  }
+
+  #footer-section {
+    background: #efeef0;
+  }
+
+  .qw-footer {
+    padding: 25px 0px;
+  }
+
+  .qw-copyright {
+    color: #494d59;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  .social-media-icons > img {
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+  }
+}
