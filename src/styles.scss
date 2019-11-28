@@ -422,6 +422,7 @@ textarea {
 .value-prop-statement {
   order: 1;
   flex-basis: 41%;
+  
 }
 
 h1 {
@@ -759,10 +760,23 @@ h6 {
   }
 }
 
+.features-points .feature {
+  flex-basis: 45%;
+  margin-bottom: 30px;
+}
+
+
 @media all and (max-width: 795px) {
   .row:not(.vision-statement-container) {
     margin-top: 15px;
   }
+
+
+  .features-points .feature {
+    flex-basis: unset;
+    margin-bottom: 30px;
+  }
+
   .row > * {
     margin: 10px;
     // padding: 0px;
@@ -839,6 +853,8 @@ h6 {
 
   .row.value-prop-statement {
     justify-content: center !important;
+    overflow-x: hidden;
+    padding: 0px 0px;
   }
 
   .value-prop-image,
@@ -903,10 +919,10 @@ section#features .feature-points {
   flex-basis: 50%;
 }
 
-.features-points .feature {
-  flex-basis: 45%;
-  margin-bottom: 30px;
-}
+// .features-points .feature {
+//   flex-basis: 45%;
+//   margin-bottom: 30px;
+// }
 
 .case-study {
   flex-basis: 30%;
@@ -940,3 +956,9 @@ section#features .feature-points {
 .case-study-image {
   flex-basis: 40%;
 }
+
+
+
+// .case-study-image > img {
+//   width:50px;
+// }

@@ -256,6 +256,9 @@ a.sub-link.active {
 .value-prop-statement{
     order: 1;
     flex-basis: 39%;
+    padding: 136px 0px;
+
+    
 }
 
 h1{
@@ -628,6 +631,9 @@ h6{
 
 @media all and (max-width: 795px) {
 
+
+ 
+
     .row{
         margin-top: 15px;
         justify-content: center  !important;
@@ -749,10 +755,10 @@ section#features .feature-points {
     flex-basis: 50%;
 }
 
-.features-points .feature {
+/* .features-points .feature {
     flex-basis: 45%;
     margin-bottom: 30px;
-}
+} */
 
 .case-study {
     flex-basis: 30%;

@@ -4,8 +4,8 @@
 <!-- VALUE PROPOSITION SECTION -->
 <section id="value-prop-section">
     <div id="main-container">
-        <div class="row items-flex-start flex-justification-space-between">
-            <div class="row value-prop-statement mobile-full-width m-0">
+        <div class="row items-flex-center flex-justification-space-between m-0">
+            <div class="row value-prop-statement mobile-full-width">
                 <h1>Automate your <br> <span id="automationContent">{{title}}</span></h1>
                 <h3>Let our chatbots help you generate more leads, boost conversations, and answer customer queries
                     24x7</h3>
@@ -13,11 +13,105 @@
                 <button class="button btn-how-it-works bg-yellow color-white" (click)="redirectTQWChat()">Get Started for free</button>
             </div>
             <div class="value-prop-image">
-                <img class="full-width" src="./assets/images/Home Page.PNG" />
+                <img class="full-width" src="./assets/images/h-image.png" />
             </div>
         </div>
     </div>
 </section>
+
+
+
+<section id="features">
+    <div id="main-container">
+        <h1 class="t-a-c">Amazing features</h1>
+        <h3 class="t-a-c">You’ll love Quickwork Chat once got familiar with the strength-building key elements that
+            Quickwork Chat holds in it</h3>
+            <div class="grid feature-section-container">
+                <div class="feature-section">
+                    <img class="m-b-20" src="../../../../assets/images/bot.svg" />
+                    <h4 class="m-b-20">Bot</h4>
+                  
+                </div>
+                <div class="feature-section">
+                    <img class="m-b-20" src="../../../../assets/images/robot.svg" />
+                    <h4 class="m-b-20">Multilingual</h4>
+               
+                </div>
+                <div class="feature-section">
+                    <img class="m-b-20" src="../../../../assets/images//omni-channel.svg" />
+                    <h4 class="m-b-20">Omnichannel</h4>
+                    
+                </div>
+                <div class="feature-section">
+                    <img class="m-b-20" src="../../../../assets/images//human hybrid.svg" />
+                    <h4 class="m-b-20">Bot-Human Hybrid</h4>
+                    
+                </div>
+                <div class="feature-section">
+                    <img class="m-b-20" src="../../../../assets/images//configuration.svg" />
+                    <h4 class="m-b-20">Configurable UI</h4>
+                    
+                </div>
+                <div class="feature-section">
+                    <img class="m-b-20" src="../../../../assets/images//mail-on-cloud.svg" />
+                    <h4 class="m-b-20">Run on cloud or Server</h4>
+                    
+                </div>
+                <div class="feature-section">
+                        <img class="m-b-20" src="../../../../assets/images//integration.svg" />
+                        <h4 class="m-b-20">Integration</h4>
+                    </div>
+                       
+                <div class="feature-section">
+                        <img class="m-b-20" src="../../../../assets/images//bot (3).svg" />
+                        <h4 class="m-b-20">Bot Builder</h4>
+                        
+                    </div>
+                    <div class="feature-section">
+                        <img class="m-b-20" src="../../../../assets/images//broadcast-communications-tower.svg" />
+                        <h4 class="m-b-20">Braodcast</h4>
+                    </div>
+                    <div class="feature-section">
+                        <img class="m-b-20" src="../../../../assets/images//sdk.svg" />
+                        <h4 class="m-b-20">Mobile sdk Bot sdk</h4>
+                        
+                    </div>
+                  
+                    
+                    
+                 
+                   
+                    
+         
+
+                
+            </div>
+    </div>
+</section>
+
+
+
+<!-- <section id="benefits">
+    <div id="main-container">
+        <h1 class="t-a-c">Deserving benefits</h1>
+        <h3 class="t-a-c">Enjoy some mindblowing benefits that Quickwork Chat serves you and your peers for life.
+        </h3>
+        <div class="row items-flex-center flex-justification-space-between">
+            <div class="feature-image">
+                <img class="full-width" src="./assets/images/Benefits.PNG" alt="">
+            </div>
+            <div class="row features-points items-flex-start flex-justification-space-between m-0">
+                <div class="feature" *ngFor="let benefit of benefits">
+                    <h4 class="feature-title">{{benefit.title}}</h4>
+                    <h5 class="feature-description">{{benefit.description}}</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+
+
 
 <section id="about-us">
     <div id="main-container">
@@ -48,7 +142,30 @@
     </div>
 </section>
 
-<section id="features">
+<section id="case-studies">
+        <div id="main-container">
+            <h1 class="t-a-c">Our popular case studies</h1>
+            <h3 class="t-a-c">Read through some of the examples of how our clients adopt conventional marketing
+                strategies to obtain cent-percent results</h3>
+            <div class="row items-flex-center flex-justification-space-between">
+                <div class="case-study-image">
+                    <img class="full-width" src="./assets/images/2.2.png" alt="">
+                </div>
+                <div class="row features-points items-flex-start flex-justification-space-between m-0">
+                    <div class="feature" *ngFor="let caseStudy of caseStudies">
+                        <h4 class="feature-title line-height">{{caseStudy.title}}</h4>
+                        <h5 class="feature-description">{{caseStudy.description}}</h5>
+                        <button class="button btn-how-it-works bg-yellow color-white m-t-10">
+                            <a>Download Report</a>
+                            <i class="fa fa-long-arrow-right arrow" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- <section id="features">
     <div id="main-container">
         <h1 class="t-a-c">Amazing features</h1>
         <h3 class="t-a-c">You’ll love Quickwork Chat once got familiar with the strength-building key elements that
@@ -65,50 +182,7 @@
             </div>
         </div>
     </div>
-</section>
-
-<section id="benefits">
-    <div id="main-container">
-        <h1 class="t-a-c">Deserving benefits</h1>
-        <h3 class="t-a-c">Enjoy some mindblowing benefits that Quickwork Chat serves you and your peers for life.
-        </h3>
-        <div class="row items-flex-center flex-justification-space-between">
-            <div class="feature-image">
-                <img class="full-width" src="./assets/images/Benefits.PNG" alt="">
-            </div>
-            <div class="row features-points items-flex-start flex-justification-space-between m-0">
-                <div class="feature" *ngFor="let benefit of benefits">
-                    <h4 class="feature-title">{{benefit.title}}</h4>
-                    <h5 class="feature-description">{{benefit.description}}</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section id="case-studies">
-    <div id="main-container">
-        <h1 class="t-a-c">Our popular case studies</h1>
-        <h3 class="t-a-c">Read through some of the examples of how our clients adopt conventional marketing
-            strategies to obtain cent-percent results</h3>
-        <div class="row items-flex-center flex-justification-space-between">
-            <div class="case-study-image">
-                <img class="full-width" src="./assets/images/case-study.png" alt="">
-            </div>
-            <div class="row features-points items-flex-start flex-justification-space-between m-0">
-                <div class="feature" *ngFor="let caseStudy of caseStudies">
-                    <h4 class="feature-title">{{caseStudy.title}}</h4>
-                    <h5 class="feature-description">{{caseStudy.description}}</h5>
-                    <button class="button btn-how-it-works bg-yellow color-white m-t-10">
-                        <a>Download Report</a>
-                        <i class="fa fa-long-arrow-right arrow" aria-hidden="true"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+</section> -->
 
 <!-- <section id="demo">
     <div id="main-container">
@@ -165,3 +239,6 @@
 
 
 <qw-footer></qw-footer>
+
+
+

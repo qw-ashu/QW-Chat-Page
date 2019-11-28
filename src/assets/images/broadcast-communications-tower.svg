@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 58.5 58.5" style="enable-background:new 0 0 58.5 58.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.497;fill:url(#Path_1628_1_);enable-background:new    ;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:#0E106A;}
+</style>
+<g id="Layer_2">
+	<g id="Group_1862" transform="translate(741.808 2919.427) rotate(180)">
+		
+			<linearGradient id="Path_1628_1_" gradientUnits="userSpaceOnUse" x1="1407.6698" y1="2498.6487" x2="1406.9824" y2="2497.7209" gradientTransform="matrix(-48 0 0 48 68297.5938 -117035.0703)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#FFA600"/>
+		</linearGradient>
+		<path id="Path_1628" class="st0" d="M684.1,2883.6l45.8,31.4l5.7-51.5L684.1,2883.6z"/>
+		<g id="Group_1782" transform="translate(184.807 279.427)">
+			<g>
+				<defs>
+					<polygon id="SVGID_1_" points="499.3,2604.2 545.1,2635.6 550.7,2584.1 					"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+				<g id="Group_1781" transform="translate(0 0)" class="st1">
+					
+						<image style="overflow:visible;enable-background:new    ;" width="258" height="431" id="Rectangle_1871" xlink:href="646E571B.png"  transform="matrix(0.1918 0 0 0.1918 510.5736 2568.5007)">
+					</image>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Capa_1">
+	<g>
+		<path class="st2" d="M22.3,35.2c-1.8-2.5-2.8-5.6-2.8-9c0-8.7,7.1-15.8,15.8-15.8c8.7,0,15.8,7.1,15.8,15.8c0,3.3-1,6.4-2.8,9
+			c1.1-2,1.7-4.4,1.7-6.8c0-8.1-6.6-14.7-14.7-14.7s-14.7,6.6-14.7,14.7C20.6,30.9,21.2,33.2,22.3,35.2z M44,26.7
+			c0-4.8-3.9-8.6-8.6-8.6c-4.8,0-8.6,3.9-8.6,8.6c0,1.4,0.4,2.8,1,3.9c-0.2-0.7-0.4-1.5-0.4-2.3c0-4.4,3.6-8,8-8s8,3.6,8,8
+			c0,0.8-0.1,1.5-0.4,2.3C43.6,29.5,44,28.2,44,26.7z M35.3,24.1c-1.4,0-2.6,1.2-2.6,2.6c0,1.5,1.2,2.6,2.6,2.6
+			c1.4,0,2.6-1.2,2.6-2.6C38,25.3,36.8,24.1,35.3,24.1z M29.2,45.5l3.1-14.9h6l3.1,14.9h-1.7L39.2,43h-7.8l-0.5,2.5H29.2z M33,35.7
+			h4.7L37,32.3h-3.3L33,35.7z M31.8,41.3h7.1l-0.8-4h-5.4L31.8,41.3z"/>
+	</g>
+</g>
+</svg>

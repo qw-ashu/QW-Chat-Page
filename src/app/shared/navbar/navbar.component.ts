@@ -29,12 +29,12 @@ export class NavbarComponent implements OnInit {
       fragmentId: 'features',
       type: 'link'
     },
-    {
-      name: 'Benefits',
-      link: '/pricing',
-      fragmentId: 'benefits',
-      type: 'link'
-    },
+    // {
+    //   name: 'Benefits',
+    //   link: '/pricing',
+    //   fragmentId: 'benefits',
+    //   type: 'link'
+    // },
     {
       name: 'Case Studies',
       link: null,

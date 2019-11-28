@@ -1,0 +1,45 @@
+@import "../assets/scss/variables.scss";
+
+section:nth-child(even) {
+    background: $qw-background-color;
+}
+
+.grid {
+    display: grid;
+  }
+  .grid.feature-section-container {
+    grid-gap: 80px 20px;
+    grid-template-columns: repeat(auto-fill, minmax(226px, 1fr));
+    margin: 80px 0px;
+  }
+  .grid.feature-section-container img {
+    height: 48px;
+    width: 48px;
+  }
+  .grid.feature-section-container h4,
+  .grid.feature-section-container h5 {
+    text-align: unset;
+  }
+  @media all and (max-width: 580px) {
+    .grid.feature-section-container {
+      text-align: center;
+      grid-template-columns: 100%;
+    }
+  }
+
+ #case-studies{
+   display: flex;
+ }
+
+  .line-height{
+    line-height:23px;
+  }
+
+  .feature-image{
+    width:100%;
+
+  }
+
+  // .feature-image > img{
+  //   width:50px;
+  // }
